@@ -2,11 +2,7 @@ import aiohttp
 import asyncio
 import json
 
-API_KEY = '9ace5782-2b50-4543-bad8-4e48fffdda0a'
-# 5c6da693-0068-4b31-af79-801eab7e1154 18.07+ 13k+ reqs
-# 19c4feb8-e332-4c2a-92d3-f02484cb13fa 18k
-# 9ace5782-2b50-4543-bad8-4e48fffdda0a gg
-# 15642592-27cb-4f51-a65d-3722daf1ef26
+API_KEY = '***'
 
 
 async def fetch_coordinates(session, address):
